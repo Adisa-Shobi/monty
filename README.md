@@ -1,4 +1,4 @@
-#The Monty Language
+# The Monty Language
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
 **Monty byte code files**
@@ -10,11 +10,11 @@ push 1$
 push 2$
   push 3$
                      pall    $
-		     push 4$
-		         push 5    $
-			       push    6        $
-			       pall$
-			       julien@ubuntu:~/monty$
+push 4$
+    push 5    $
+      push    6        $
+pall$
+julien@ubuntu:~/monty$
 ```
 Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
 ```
