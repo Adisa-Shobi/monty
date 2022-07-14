@@ -21,6 +21,7 @@ int get_opcode(char **args, unsigned int line_number, stack_t **stack)
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
+		{"nop", nop},
 		{NULL, NULL}
 	};
 

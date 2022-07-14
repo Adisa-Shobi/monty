@@ -66,5 +66,8 @@ void swap(stack_t **stack, unsigned int line_number);
 /* add.c */
 void add(stack_t **stack, unsigned int line_number);
 
+/* nop.c */
+void nop(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
