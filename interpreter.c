@@ -29,12 +29,14 @@ void interpreter(FILE *monty_file)
 				exit(EXIT_FAILURE);
 			}
 			args[i] = strtok(buffer, " ");
-			for (i = 1; i < word_count; i++)
+			if (**args != '#')
 			{
-				args[i] = strtok(NULL, " ");
+				for (i = 1; i < word_count; i++)
+				{
+					args[i] = strtok(NULL, " ");
+				}
+				get_opcode(args, line_number, &stack);
 			}
-			args[i] = NULL;
-			get_opcode(args, line_number, &stack);
 			free(args);
 		}
 	}
