@@ -18,10 +18,10 @@ void interpreter(FILE *monty_file)
 	{
 		i = 0;
 		line_number++;
+		clean_buffer(buffer);
 		word_count = countWords(buffer);
 		if (word_count != 0)
 		{
-			clean_buffer(buffer);
 			args = malloc(sizeof(*args) * (word_count + 1));
 			if (args == NULL)
 			{
@@ -35,6 +35,7 @@ void interpreter(FILE *monty_file)
 			}
 			args[i] = NULL;
 			get_opcode(args, line_number, &stack);
+			buffer[0] = '\0';
 			free(args);
 		}
 	}
