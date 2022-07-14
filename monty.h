@@ -60,5 +60,8 @@ void pint(stack_t **stack, unsigned int line_number);
 /* pop.c */
 void pop(stack_t **stack, unsigned int line_number);
 
+/* swap.c */
+void swap(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
