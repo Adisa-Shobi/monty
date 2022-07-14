@@ -69,5 +69,11 @@ void add(stack_t **stack, unsigned int line_number);
 /* nop.c */
 void nop(stack_t **stack, unsigned int line_number);
 
+/* sub.c */
+void sub(stack_t **stack, unsigned int line_number);
+
+/* div.c */
+void divide(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
