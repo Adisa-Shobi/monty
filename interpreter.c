@@ -35,7 +35,6 @@ void interpreter(FILE *monty_file)
 			}
 			args[i] = NULL;
 			get_opcode(args, line_number, &stack);
-			buffer[0] = '\0';
 			free(args);
 		}
 	}
