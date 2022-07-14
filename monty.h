@@ -57,5 +57,8 @@ void free_stack(stack_t **stack);
 /* pint.c */
 void pint(stack_t **stack, unsigned int line_number);
 
+/* pop.c */
+void pop(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
