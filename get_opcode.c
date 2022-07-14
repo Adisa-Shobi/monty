@@ -24,6 +24,8 @@ int get_opcode(char **args, unsigned int line_number, stack_t **stack)
 		{"nop", nop},
 		{"sub", sub},
 		{"div", divide},
+		{"mul", mul},
+		{"mod", mod},
 		{NULL, NULL}
 	};
 

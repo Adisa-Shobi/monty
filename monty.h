@@ -75,5 +75,11 @@ void sub(stack_t **stack, unsigned int line_number);
 /* div.c */
 void divide(stack_t **stack, unsigned int line_number);
 
+/* mul.c */
+void mul(stack_t **stack, unsigned int line_number);
+
+/* mod.c */
+void mod(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
