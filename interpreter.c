@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  *interpreter - loops through the lines of a monty file

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  *main - The entry point to the monty compiler program
@@ -6,6 +6,9 @@
  *@ac: Argument counter
  *Return: 0 in successfull
  */
+
+char *op_value = NULL;
+
 int main(int ac, char **av)
 {
 	FILE *monty_file;

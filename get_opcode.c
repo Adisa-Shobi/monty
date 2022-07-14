@@ -1,13 +1,13 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  *get_opcode - searches thtough arguments for opcodes
  *
  *@args: The argument list
+ *@line_number: Current line number
+ *@stack: data stack
  *Return: 0 if succesful, 1 if not
  */
-
-char *op_value = NULL;
 
 int get_opcode(char **args, unsigned int line_number, stack_t **stack)
 {

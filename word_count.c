@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 /**
  * countWords - counts the number of words in input
  *

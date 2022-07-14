@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  *push - Adds data to the top of the stack
