@@ -13,7 +13,7 @@ void pstr(stack_t **stack, unsigned int line_number __attribute__((unused)))
 
 	while (ptr)
 	{
-		if (ptr->n == 0 || ptr->n > 127)
+		if (ptr->n <= 0 || ptr->n > 127)
 			break;
 		putchar((char)ptr->n);
 		ptr = ptr->prev;
