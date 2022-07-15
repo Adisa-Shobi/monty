@@ -81,5 +81,11 @@ void mul(stack_t **stack, unsigned int line_number);
 /* mod.c */
 void mod(stack_t **stack, unsigned int line_number);
 
+/* pchar.c */
+void pchar(stack_t **stack, unsigned int line_number);
+
+/* pstr.c */
+void pstr(stack_t **stack, unsigned int line_number);
+
 extern char *op_value;
 #endif /* MAIN_H */
