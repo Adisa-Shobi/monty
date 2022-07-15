@@ -90,5 +90,8 @@ void pstr(stack_t **stack, unsigned int line_number);
 /* rotl.c */
 void rotl(stack_t **stack, unsigned int line_number __attribute__((unused)));
 
+/* rotr.c */
+void rotr(stack_t **stack, unsigned int line_number __attribute__((unused)));
+
 extern char *op_value;
 #endif /* MAIN_H */
