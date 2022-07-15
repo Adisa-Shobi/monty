@@ -3,7 +3,7 @@
 /**
  *pchar - PRints the ASCII char equivalent of the top element
  *
- *@line_numner: The current line number of file
+ *@line_number: The current line number of file
  *@stack: The stack
  *Return: void
  */

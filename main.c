@@ -1,13 +1,15 @@
 #include "monty.h"
 
+
+char *op_value = NULL; /* global var declaration */
+
+
 /**
  *main - The entry point to the monty compiler program
  *@av: Argument vector
  *@ac: Argument counter
  *Return: 0 in successfull
  */
-
-char *op_value = NULL;
 
 int main(int ac, char **av)
 {
