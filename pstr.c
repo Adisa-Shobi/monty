@@ -16,7 +16,7 @@ void pstr(stack_t **stack, unsigned int line_number)
 	{
 		if (ptr->n == 0 || ptr->n > 127)
 			break;
-		fprintf(stdout, "%c", ptr->n);
+		putchar((char)ptr->n);
 		ptr = ptr->prev;
 	}
 	fprintf(stdout, "\n");
